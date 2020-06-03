@@ -53,6 +53,9 @@
                                 <Span Text=" " />
                                 <Span Text="Xamarin Platform" FontAttributes="Bold" />
                                 <Span Text="." />
+                                <Span Text=" " />
+                                <Span Text="https://github.com/mfylypiuk/TimeConverter" />
+                                <Span Text=" " />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
