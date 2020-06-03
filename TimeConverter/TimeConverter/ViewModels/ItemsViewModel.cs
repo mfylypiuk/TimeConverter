@@ -19,7 +19,7 @@ namespace TimeConverter.ViewModels
             Title = "Converter";
             Items = new ObservableCollection<string>()
             {
-                "Nanoseconds", "Microsecond", "Second", "Minute", "Hour", "Day", "Week", "Year"
+                "Nanosecond", "Microsecond", "Second", "Minute", "Hour", "Day", "Week", "Year"
             };
         }
     }
