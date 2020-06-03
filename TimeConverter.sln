@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConverter.Android", "TimeConverter\TimeConverter.Android\TimeConverter.Android.csproj", "{4BB9B036-E0B5-4896-8655-9D52E9FD9701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeConverter", "TimeConverter\TimeConverter\TimeConverter.csproj", "{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB9B036-E0B5-4896-8655-9D52E9FD9701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB9B036-E0B5-4896-8655-9D52E9FD9701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB9B036-E0B5-4896-8655-9D52E9FD9701}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4BB9B036-E0B5-4896-8655-9D52E9FD9701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB9B036-E0B5-4896-8655-9D52E9FD9701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB9B036-E0B5-4896-8655-9D52E9FD9701}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D2E88F-1B2E-4EC6-ACAC-E1F310D68D0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF204D8-7CE0-49EE-A99E-3E4DBCA4E1D4}
+	EndGlobalSection
+EndGlobal

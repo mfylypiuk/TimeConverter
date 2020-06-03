@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TimeConverter.Views.ItemsPage"
+             Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Convert" Clicked="Convert_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <RefreshView IsRefreshing="{Binding IsBusy, Mode=TwoWay}" Command="{Binding LoadItemsCommand}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180" />
+                <ColumnDefinition Width="180" />
+            </Grid.ColumnDefinitions>
+
+            <ListView x:Name="ItemsCollectionView_From"
+                ItemsSource="{Binding Items}" />
+
+            <ListView x:Name="ItemsCollectionView_To"
+                ItemsSource="{Binding Items}"
+                Grid.Column="1" />
+
+        </Grid>
+    </RefreshView>
+</ContentPage>
